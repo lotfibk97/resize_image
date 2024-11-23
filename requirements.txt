@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pillow
+opencv-python
+psycopg2-binary
+pytest
+awsebcli
+python-multipart
+numpy
+aiofiles
+httpx
