@@ -164,6 +164,7 @@ pip install pytest
 - **Form Data**:
   - `file`: The CSV file to upload.
 - **Response**: Returns the processed image as a PNG file.
+- **Example**: localhost:8000/upload_csv/ or https://python-challenge-production.up.railway.app/upload_csv/
 
 ### Get Images by Depth Range
 
@@ -174,6 +175,7 @@ pip install pytest
   - `depth_max`: Maximum depth value (float).
 - **Description**: Retrieves a list of images within the specified depth range.
 - **Response**: JSON list of image metadata.
+- **Example**: localhost:8000/images/ or https://python-challenge-production.up.railway.app/images/
 
 ### Get Image by ID
 
@@ -181,6 +183,7 @@ pip install pytest
 - **Method**: `GET`
 - **Description**: Retrieves an image by its ID.
 - **Response**: Returns the image as a PNG file.
+- **Example**: localhost:8000/images/{image_id} or https://python-challenge-production.up.railway.app/images/{image_id}
 
 ## Deployment
 
